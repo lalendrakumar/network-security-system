@@ -10,7 +10,7 @@ log_path = os.path.join(os.getcwd(),"logs")
 os.makedirs(log_path,exist_ok=True)
 
 # 3. Final log file path
-LOG_FILE_PATH = os.path.join(logs_path,LOG_FILE)
+LOG_FILE_PATH = os.path.join(log_path,LOG_FILE)
 
 # 4. Logging configuration
 logging.basicConfig(
